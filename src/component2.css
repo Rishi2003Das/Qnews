@@ -1,0 +1,27 @@
+.inside{
+    width: 26vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 13px;
+    color: rgb(35, 15, 106);
+}
+.mainc{
+    gap: 10px;
+    font-size: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right:100px;
+    padding: 5px;
+    border-color: black;
+    border-radius: 20%;
+}
+img{
+width: 26vw;
+}
+h2{
+    display: flex;
+    flex-wrap: wrap;
+}
