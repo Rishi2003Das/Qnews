@@ -1,7 +1,10 @@
-.App {
+.App{
+  /* background-image: url('./Newsimg.jpg');  */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
   text-align: center;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +39,141 @@
     transform: rotate(360deg);
   }
 }
+.Heading{
+  font-family: 'Georgia', serif;
+  color:#0d0d0d;
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 20px;
+  padding-right: 40px;
+  font-size: 40px; 
+  font-weight: bold; 
+  
+ }
+
+.navbar {
+  /* background-color: #00ff59; */
+  background-color: rgba(9, 223, 9, 0.5);
+
+  overflow: hidden;  
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.extra-extra{
+
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #030303;
+}
+/* Footer container */
+.footer {
+  background-color: rgba(9, 223, 9, 0.5);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Footer links */
+.footer a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Footer link hover effect */
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Footer social media icons */
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Add icons for social media links (you'll need to include the font-awesome or similar library) */
+.social-icons a i {
+  font-size: 24px;
+}
+
+/* Footer copyright text */
+.footer-copyright {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+
+.navbar a {
+  float:right; 
+  display:flexbox;
+  color: rgb(7, 7, 7); 
+  text-align: left; 
+  padding: 14px 10px; 
+  text-decoration: none; 
+  font-size: 20px;
+  margin-left: 15px;
+  font-weight: 750;
+}
+
+
+.navbar a:hover {
+  background-color: rgba(255, 255, 255, 0.3); 
+  color: black;
+}
+.search-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+}
+.search-form{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.search-input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 1000px;
+  outline: none; /* Remove the default focus border */
+}
+.search-button[type="submit"] {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #007bff; /* Change to your desired button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.search-button[type="submit"]:hover {
+  background-color: rgba(9, 223, 9, 0.5); /* Change to your desired button hover color */
+}
+.hero{
+  width: auto;
+  padding: 0% 10%;
+  text-align: center;
+}
+ .readMore{
+  font-size: 2px;
+}
+
+
+
+
+
